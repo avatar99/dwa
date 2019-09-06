@@ -50,7 +50,7 @@ message.channel.send(`This avatar For ${user} link : ${user.avatarURL}`);
   client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
-if (message.content.startsWith('$adminbc')){
+if (message.content.startsWith('fwafwafwafwaf')){
 if(!message.author.id === '600369127907131412') return;
 message.channel.sendMessage('**سيتم إرسال هذه الرسالة || :white_check_mark:**')
 client.users.forEach(m =>{
